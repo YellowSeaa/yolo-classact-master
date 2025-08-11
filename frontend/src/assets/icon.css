@@ -1,0 +1,29 @@
+.model1_icon {
+    background: url('./icon/model1.svg') no-repeat;
+    font-size: 16px;
+    background-size: cover;
+}
+.model1_icon:before {
+    content: "_________";
+    font-size: 16px;
+}
+
+.model2_icon {
+    background: url('./icon/model2.svg') no-repeat;
+    font-size: 16px;
+    background-size: cover;
+}
+.model2_icon:before {
+    content: "替";
+    font-size: 16px;
+}
+
+.model3_icon {
+    background: url('./icon/model3.svg') no-repeat;
+    font-size: 16px;
+    background-size: cover;
+}
+.model3_icon:before {
+    content: "替";
+    font-size: 16px;
+}

@@ -1,0 +1,6 @@
+backend/utils/model/
+testFile/
+backend/file_storage/
+backend/runs/
+.DS_Store
+__pycache__/

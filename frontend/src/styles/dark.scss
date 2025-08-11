@@ -1,0 +1,8 @@
+@forward "element-plus/theme-chalk/src/dark/var.scss" with (
+  $colors:(
+           //这里定义在暗黑模式下 primary 的颜色，其他同理
+          "primary": ("base": rgb(118, 178, 182)),
+  )
+);
+ 
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
