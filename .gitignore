@@ -4,3 +4,5 @@ backend/file_storage/
 backend/runs/
 .DS_Store
 __pycache__/
+backend/.venv
+backend/utils/__pycache__

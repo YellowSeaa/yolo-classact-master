@@ -61,31 +61,22 @@ YOLO-ClassAct 是一个基于YOLOv11的教室活动分析系统，旨在通过�
 
 ### 后端服务启动
 
-1. 安装 [uv](https://docs.astral.sh/uv/) 依赖管理工具：
-   ```bash
-   # Windows (使用 PowerShell)
-   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-   
-   # macOS/Linux
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   ```
-
-2. 创建虚拟环境并安装依赖：
+1. 安装 [uv](https://uv.doczh.com/) 和项目依赖：
    ```bash
    cd backend
-   uv venv
-   uv pip install -r requirements.txt
+   pip install uv && uv sync
    ```
 
-3. 激活虚拟环境并启动服务：
+2. 下载模型：
+   
+   模型下载地址：[待补充]()
+   
+   模型存放位置：`backend/utils/model/`
+
+3. 启动服务：
    ```bash
-   # Windows
-   .venv\Scripts\activate
-   
-   # macOS/Linux
-   source .venv/bin/activate
-   
-   python app.py
+   cd backend
+   uv run app.py
    ```
 
 ### 前端界面启动
@@ -119,18 +110,6 @@ YOLO-ClassAct 是一个基于YOLOv11的教室活动分析系统，旨在通过�
 | `/get_pictures` | GET | 获取违规截图列表 |
 | `/random_check` | GET | 随机点名 |
 
-## 部署
+## 模型介绍
 
-### 后端部署
-使用 `uv` 管理依赖，通过以下命令安装生产环境依赖：
-```bash
-uv pip install -r requirements.txt --system
-```
-
-### 前端部署
-构建生产版本：
-```bash
-npm run build
-```
-
-构建后的文件位于 `dist` 目录，可部署到任何静态文件服务器。
+待补充
