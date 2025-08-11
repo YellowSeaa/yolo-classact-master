@@ -36,6 +36,7 @@ YOLO-ClassAct 是一个基于YOLOv11的教室活动分析系统，旨在通过�
 │
 ├── frontend/               # 前端界面
 │   ├── src/                     # 源代码
+│   │   └── App.vue              # 主界面
 │   ├── package.json             # 项目依赖配置
 │   └── ...                      # 其他前端文件
 │
